@@ -4,4 +4,10 @@ data = json.load(open("data.json"))
 
 question = input("Input the word to search: ")
 
-print(data[question])
+def answer(question):
+    try:
+        print(data[question])
+    except:
+        print("There is a really word???")
+
+print(answer(question))
