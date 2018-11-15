@@ -6,7 +6,7 @@ question = input("Input the word to search: ")
 
 wrongWord = "There is really the word???"
 
-possibleTypo = "The word is not found.  Maybe did you wanna say..."
+possibleTypo = "The word was not found.  Maybe did you wanna say..."
 
 def answer(question):
     try:
